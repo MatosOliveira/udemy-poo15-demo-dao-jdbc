@@ -10,7 +10,7 @@ import model.entities.Department;
  * @author Matos - 25.06.2023
  *
  */
-public interface DepartmentDAO {
+public interface DepartmentDao {
 
 	void insert(Department obj);
 	

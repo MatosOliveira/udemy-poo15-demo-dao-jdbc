@@ -10,7 +10,7 @@ import model.entities.Seller;
  * @author Matos - 25.06.2023
  *
  */
-public interface SellerDAO {
+public interface SellerDao {
 
 	void insert(Seller obj);
 	
