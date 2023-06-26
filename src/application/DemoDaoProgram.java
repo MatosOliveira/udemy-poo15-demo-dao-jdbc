@@ -53,8 +53,8 @@ public class DemoDaoProgram {
 		
 		System.out.println("\n =====TEST 4: seller insert ========");
 		Seller seller3 = new Seller(null, "Marta", "marta@gmail.com", LocalDate.parse("22/04/1990", dtf), 2600.0, department);
-		//sellerDao.insert(seller3);
-		//System.out.println("Inserted new seller! " + seller3.getId());
+		sellerDao.insert(seller3);
+		System.out.println("Inserted new seller! " + seller3.getId());
 		
 		/*
 		 * System.out.println("\n =====TEST 5: seller update ========"); 
@@ -63,7 +63,7 @@ public class DemoDaoProgram {
 		 * System.out.println("Update completed! ");
 		 */
 		
-		System.out.println("\n =====TEST 6: seller update ========");
+		System.out.println("\n =====TEST 6: seller delete ========");
 		sellerDao.deleteById(11);
 		System.out.println("Delete completed! ");
 
